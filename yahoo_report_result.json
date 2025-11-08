@@ -1,0 +1,842 @@
+{
+  "generated_at": "2025-11-08T21:11:59.077185",
+  "total_reports": 1,
+  "total_failures": 14,
+  "failures": [
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "173.201.192.58",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "bounce.secureserver.net",
+          "result": "pass"
+        },
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        },
+        {
+          "domain": "secureserver.net",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "bounce.secureserver.net",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "173.201.192.75",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "bounce.secureserver.net",
+          "result": "pass"
+        },
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        },
+        {
+          "domain": "secureserver.net",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "bounce.secureserver.net",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "173.201.192.94",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "bounce.secureserver.net",
+          "result": "pass"
+        },
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        },
+        {
+          "domain": "secureserver.net",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "bounce.secureserver.net",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "173.201.192.95",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "bounce.secureserver.net",
+          "result": "pass"
+        },
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        },
+        {
+          "domain": "secureserver.net",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "bounce.secureserver.net",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "174.129.206.125",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "default.rew.ca",
+          "result": "fail"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "198.2.133.95",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "mcsignup.com",
+          "result": "pass"
+        },
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "mandrillapp.com",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "198.2.190.81",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "fbl.mcsv.net",
+          "result": "pass"
+        },
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "mail81.suw11.mcdlv.net",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "209.85.208.46",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        },
+        {
+          "domain": "sendgrid.info",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "gmail.com",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "209.85.210.182",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        },
+        {
+          "domain": "sendgrid.info",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "gmail.com",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "209.85.216.41",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        },
+        {
+          "domain": "sendgrid.info",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "gmail.com",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "209.85.216.51",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        },
+        {
+          "domain": "sendgrid.info",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "gmail.com",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "209.85.218.52",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        },
+        {
+          "domain": "sendgrid.info",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "gmail.com",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "209.85.222.41",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        },
+        {
+          "domain": "sendgrid.info",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "gmail.com",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    },
+    {
+      "domain": "rew.ca",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "date": "2025-11-07",
+      "source_ip": "74.208.4.197",
+      "count": 1,
+      "disposition": "none",
+      "dkim_result": "pass",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "rew.ca",
+          "result": "pass"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "timtruss.com",
+          "result": "pass"
+        }
+      ],
+      "header_from": "rew.ca",
+      "has_failure": true
+    }
+  ],
+  "all_reports": [
+    {
+      "filename": "yahoo_report.xml",
+      "org_name": "Yahoo",
+      "report_id": "1762567248.252293",
+      "domain": "rew.ca",
+      "date_begin": "2025-11-07 00:00:00",
+      "date_end": "2025-11-07 23:59:59",
+      "dmarc_policy": "quarantine",
+      "records": [
+        {
+          "source_ip": "149.72.159.55",
+          "count": 976,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "pass",
+          "dkim_details": [
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "sendgrid.info",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "default.rew.ca",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": false
+        },
+        {
+          "source_ip": "167.89.79.71",
+          "count": 1029,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "pass",
+          "dkim_details": [
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "sendgrid.info",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "default.rew.ca",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": false
+        },
+        {
+          "source_ip": "173.201.192.58",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "bounce.secureserver.net",
+              "result": "pass"
+            },
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "secureserver.net",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "bounce.secureserver.net",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "173.201.192.75",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "bounce.secureserver.net",
+              "result": "pass"
+            },
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "secureserver.net",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "bounce.secureserver.net",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "173.201.192.94",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "bounce.secureserver.net",
+              "result": "pass"
+            },
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "secureserver.net",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "bounce.secureserver.net",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "173.201.192.95",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "bounce.secureserver.net",
+              "result": "pass"
+            },
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "secureserver.net",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "bounce.secureserver.net",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "174.129.206.125",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "default.rew.ca",
+              "result": "fail"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "198.2.133.95",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "mcsignup.com",
+              "result": "pass"
+            },
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "mandrillapp.com",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "198.2.190.81",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "fbl.mcsv.net",
+              "result": "pass"
+            },
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "mail81.suw11.mcdlv.net",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "209.85.208.46",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "sendgrid.info",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "gmail.com",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "209.85.210.182",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "sendgrid.info",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "gmail.com",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "209.85.216.41",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "sendgrid.info",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "gmail.com",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "209.85.216.51",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "sendgrid.info",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "gmail.com",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "209.85.218.52",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "sendgrid.info",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "gmail.com",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "209.85.222.41",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            },
+            {
+              "domain": "sendgrid.info",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "gmail.com",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        },
+        {
+          "source_ip": "74.208.4.197",
+          "count": 1,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "rew.ca",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "timtruss.com",
+              "result": "pass"
+            }
+          ],
+          "header_from": "rew.ca",
+          "has_failure": true
+        }
+      ]
+    }
+  ]
+}
