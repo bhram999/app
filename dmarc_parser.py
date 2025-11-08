@@ -62,16 +62,21 @@ class DMARCParser:
         try:
             self.mail.select(mailbox)
             
-            # Search for DMARC reports - they typically come from *@dmarc* or contain report domain info
+            # Search for DMARC reports with multiple criteria
+            # Standard DMARC report subject format: "Report Domain: example.com Submitter: reporter.com"
             search_criteria = [
-                '(OR (FROM "dmarc") (SUBJECT "dmarc"))',
-                '(OR (SUBJECT "Report") (SUBJECT "Aggregate"))'
+                'SUBJECT "Report Domain:"',  # Standard DMARC report format
+                'FROM "dmarc"',               # From addresses containing dmarc
+                'SUBJECT "dmarc"',            # Subject containing dmarc
+                'FROM "noreply@google.com"',  # Google DMARC reports
+                'FROM "yahoo"',               # Yahoo DMARC reports
+                'FROM "postmaster"',          # Generic postmaster reports
             ]
             
             email_ids = []
             for criteria in search_criteria:
                 status, messages = self.mail.search(None, criteria)
-                if status == 'OK':
+                if status == 'OK' and messages[0]:
                     email_ids.extend(messages[0].split())
             
             # Remove duplicates and limit
