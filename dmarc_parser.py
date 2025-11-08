@@ -419,6 +419,7 @@ Generate one at: https://myaccount.google.com/apppasswords
     parser.add_argument('--limit', type=int, default=50, help='Maximum number of emails to process (default: 50)')
     parser.add_argument('--output', default='dmarc_failures.json', help='Output JSON file path')
     parser.add_argument('--server', default='imap.gmail.com', help='IMAP server (default: imap.gmail.com)')
+    parser.add_argument('--verbose', '-v', action='store_true', help='Enable verbose output for debugging')
     
     args = parser.parse_args()
     
@@ -429,7 +430,7 @@ Generate one at: https://myaccount.google.com/apppasswords
     print("╚═══════════════════════════════════════════════════════════╝")
     print(f"{Colors.END}\n")
     
-    parser_obj = DMARCParser(args.email, args.password, args.server)
+    parser_obj = DMARCParser(args.email, args.password, args.server, args.verbose)
     
     if not parser_obj.connect():
         sys.exit(1)
