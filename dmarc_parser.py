@@ -103,17 +103,26 @@ class DMARCParser:
             subject = self.decode_header_value(email_message['Subject'])
             from_addr = email_message['From']
             
-            # Process attachments
-            for part in email_message.walk():
-                if part.get_content_maintype() == 'multipart':
-                    continue
-                if part.get('Content-Disposition') is None:
-                    continue
+            # Debug: Check if this looks like a DMARC report
+            if 'Report Domain:' in subject or 'dmarc' in subject.lower() or 'aggregate' in subject.lower():
+                found_attachment = False
                 
-                filename = part.get_filename()
-                if filename:
-                    file_data = part.get_payload(decode=True)
-                    self.parse_dmarc_xml(file_data, filename, from_addr, subject)
+                # Process attachments
+                for part in email_message.walk():
+                    if part.get_content_maintype() == 'multipart':
+                        continue
+                    
+                    filename = part.get_filename()
+                    if filename:
+                        # Check for DMARC report file extensions
+                        if filename.endswith(('.xml', '.gz', '.zip')):
+                            found_attachment = True
+                            file_data = part.get_payload(decode=True)
+                            if file_data:
+                                self.parse_dmarc_xml(file_data, filename, from_addr, subject)
+                
+                if not found_attachment:
+                    print(f"{Colors.YELLOW}Note: Email with subject '{subject[:50]}...' has no XML/GZ/ZIP attachment{Colors.END}")
                     
         except Exception as e:
             print(f"{Colors.YELLOW}Warning: Could not process email {email_id}: {str(e)}{Colors.END}")
