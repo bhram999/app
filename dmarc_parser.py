@@ -78,10 +78,17 @@ class DMARCParser:
             for criteria in search_criteria:
                 status, messages = self.mail.search(None, criteria)
                 if status == 'OK' and messages[0]:
-                    email_ids.extend(messages[0].split())
+                    found = messages[0].split()
+                    email_ids.extend(found)
+                    if self.verbose and found:
+                        print(f"{Colors.CYAN}  Criteria '{criteria}': found {len(found)} emails{Colors.END}")
             
             # Remove duplicates and limit
-            email_ids = list(set(email_ids))[-limit:]
+            unique_ids = list(set(email_ids))
+            email_ids = unique_ids[-limit:]
+            
+            if self.verbose:
+                print(f"{Colors.CYAN}Total unique emails: {len(unique_ids)}, processing last {len(email_ids)}{Colors.END}")
             
             print(f"{Colors.BLUE}Found {len(email_ids)} potential DMARC report emails{Colors.END}\n")
             
