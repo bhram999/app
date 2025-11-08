@@ -1,0 +1,133 @@
+{
+  "generated_at": "2025-11-08T20:16:25.569859",
+  "total_reports": 1,
+  "total_failures": 2,
+  "failures": [
+    {
+      "domain": "example.com",
+      "org_name": "google.com",
+      "report_id": "1234567890",
+      "date": "2024-01-15",
+      "source_ip": "192.0.2.1",
+      "count": 25,
+      "disposition": "none",
+      "dkim_result": "fail",
+      "spf_result": "pass",
+      "dkim_details": [
+        {
+          "domain": "example.com",
+          "result": "fail"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "example.com",
+          "result": "pass"
+        }
+      ],
+      "header_from": "example.com",
+      "has_failure": true
+    },
+    {
+      "domain": "example.com",
+      "org_name": "google.com",
+      "report_id": "1234567890",
+      "date": "2024-01-15",
+      "source_ip": "203.0.113.5",
+      "count": 10,
+      "disposition": "quarantine",
+      "dkim_result": "fail",
+      "spf_result": "fail",
+      "dkim_details": [
+        {
+          "domain": "example.com",
+          "result": "fail"
+        }
+      ],
+      "spf_details": [
+        {
+          "domain": "example.com",
+          "result": "fail"
+        }
+      ],
+      "header_from": "example.com",
+      "has_failure": true
+    }
+  ],
+  "all_reports": [
+    {
+      "filename": "sample_dmarc_report.xml",
+      "org_name": "google.com",
+      "report_id": "1234567890",
+      "domain": "example.com",
+      "date_begin": "2024-01-15 00:00:00",
+      "date_end": "2024-01-15 23:59:59",
+      "dmarc_policy": "none",
+      "records": [
+        {
+          "source_ip": "192.0.2.1",
+          "count": 25,
+          "disposition": "none",
+          "dkim_result": "fail",
+          "spf_result": "pass",
+          "dkim_details": [
+            {
+              "domain": "example.com",
+              "result": "fail"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "example.com",
+              "result": "pass"
+            }
+          ],
+          "header_from": "example.com",
+          "has_failure": true
+        },
+        {
+          "source_ip": "203.0.113.5",
+          "count": 10,
+          "disposition": "quarantine",
+          "dkim_result": "fail",
+          "spf_result": "fail",
+          "dkim_details": [
+            {
+              "domain": "example.com",
+              "result": "fail"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "example.com",
+              "result": "fail"
+            }
+          ],
+          "header_from": "example.com",
+          "has_failure": true
+        },
+        {
+          "source_ip": "198.51.100.42",
+          "count": 150,
+          "disposition": "none",
+          "dkim_result": "pass",
+          "spf_result": "pass",
+          "dkim_details": [
+            {
+              "domain": "example.com",
+              "result": "pass"
+            }
+          ],
+          "spf_details": [
+            {
+              "domain": "example.com",
+              "result": "pass"
+            }
+          ],
+          "header_from": "example.com",
+          "has_failure": false
+        }
+      ]
+    }
+  ]
+}
