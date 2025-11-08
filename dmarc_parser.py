@@ -38,12 +38,13 @@ class Colors:
 
 
 class DMARCParser:
-    def __init__(self, email_address, password, imap_server='imap.gmail.com'):
+    def __init__(self, email_address, password, imap_server='imap.gmail.com', verbose=False):
         self.email_address = email_address
         self.password = password
         self.imap_server = imap_server
         self.reports = []
         self.failures = []
+        self.verbose = verbose
         
     def connect(self):
         """Connect to Gmail IMAP server"""
