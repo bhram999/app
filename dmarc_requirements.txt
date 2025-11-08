@@ -1,0 +1,3 @@
+# DMARC Parser Requirements
+# No external dependencies needed - uses only Python standard library
+# Python 3.7+ required
